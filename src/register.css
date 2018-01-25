@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.box {
+  height: 35px;
+  width: 100%;
+  border-bottom: 1px solid #d3d3d3;
+  background: #f7f7f7; }
+  .box .banner {
+    height: 35px;
+    width: 1180px;
+    margin: 0 auto;
+    font-size: 12px; }
+    .box .banner span {
+      color: #ecebee;
+      margin: 0 10px; }
+    .box .banner .registration {
+      float: left;
+      line-height: 35px; }
+      .box .banner .registration a {
+        color: #fe8500; }
+    .box .banner .nav {
+      float: right;
+      line-height: 35px; }
+      .box .banner .nav ul li {
+        float: left;
+        width: 85px; }
+      .box .banner .nav ul .Customer {
+        position: relative;
+        vertical-align: middle;
+        text-align: center; }
+        .box .banner .nav ul .Customer .Cust {
+          height: 40px;
+          width: 80px;
+          background: #fff;
+          position: absolute;
+          top: 35px;
+          left: 0;
+          z-index: 10;
+          line-height: 40px;
+          vertical-align: middle;
+          color: #747474;
+          border: 1px solid #eee;
+          display: none; }
+      .box .banner .nav a {
+        color: #747474; }
+        .box .banner .nav a:hover {
+          color: #fe8500; }
+      .box .banner .nav .icon-xingxing {
+        line-height: 35px;
+        font-size: 12px;
+        position: relative; }
+        .box .banner .nav .icon-xingxing .navmyCollection {
+          display: block;
+          width: 56px;
+          height: 68px;
+          position: absolute;
+          top: 35px;
+          left: -22px;
+          box-shadow: 0 0 1px #ccc;
+          line-height: 30px;
+          background: #fff;
+          padding: 0 15px;
+          z-index: 10;
+          display: none; }
+          .box .banner .nav .icon-xingxing .navmyCollection a {
+            text-align: center; }
+
+.header {
+  border-bottom: 1px solid #e8e8e8; }
+  .header .headerCenter {
+    height: 100px;
+    width: 1200px;
+    margin: 0 auto 20px; }
+    .header .headerCenter img {
+      float: left;
+      margin-top: 10px; }
+    .header .headerCenter p {
+      float: left;
+      width: 140px;
+      font-size: 24px;
+      line-height: 110px;
+      text-align: center;
+      color: #747474; }
+      .header .headerCenter p span {
+        margin-left: 20px; }
+
+.content .contentcenter {
+  width: 980px;
+  margin: 10px auto; }
+  .content .contentcenter .hideborder {
+    width: 200px;
+    height: 50px;
+    overflow: hidden; }
+    .content .contentcenter .hideborder .contentTitle {
+      width: 141px;
+      line-height: 40px;
+      border: 1px solid #e8e8e8;
+      border-top: 2px solid #2daae4;
+      color: #2daae4;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+      margin: 0;
+      padding: 3px 0px 5px 0px;
+      overflow: hidden;
+      background-color: #FFF;
+      position: absolute;
+      border-bottom: none; }
+  .content .contentcenter .Tabcentent {
+    min-height: 500px;
+    overflow: hidden;
+    background: #fff;
+    margin: 0px auto;
+    padding: 20px;
+    margin-top: -1px;
+    border: 1px #e8e8e8 solid; }
+    .content .contentcenter .Tabcentent ul li {
+      height: 70px; }
+      .content .contentcenter .Tabcentent ul li input {
+        font-family: Microsoft Yahei;
+        color: #474747;
+        height: 35px;
+        line-height: 35px;
+        padding-left: 15px;
+        border: 1px solid #e8e8e8;
+        background: #fff;
+        border-radius: 2px;
+        outline: none; }
+        .content .contentcenter .Tabcentent ul li input:nth-child(-n+5) {
+          width: 260px; }
+      .content .contentcenter .Tabcentent ul li span {
+        display: inline-block;
+        width: 180px;
+        height: 35px;
+        text-align: right;
+        font-size: 12px;
+        color: #747474;
+        vertical-align: middle;
+        line-height: 35px; }
+        .content .contentcenter .Tabcentent ul li span .font_fe {
+          margin-right: 5px;
+          color: #fe8500; }
+      .content .contentcenter .Tabcentent ul li .imgSize {
+        height: 15px;
+        width: 12px;
+        position: relative;
+        left: -25px; }
+      .content .contentcenter .Tabcentent ul li .phoneImgSize {
+        height: 25px;
+        width: 12px;
+        position: relative;
+        left: -25px;
+        top: 8px; }
+      .content .contentcenter .Tabcentent ul li #phoneyz {
+        width: 140px; }
+      .content .contentcenter .Tabcentent ul li .phoneVerification {
+        display: inline-block;
+        height: 35px;
+        width: 123px;
+        text-align: center;
+        line-height: 35px;
+        background: #efefef;
+        color: #828282;
+        border-radius: 2px;
+        font-size: 14px;
+        cursor: pointer; }
+    .content .contentcenter .Tabcentent .rad {
+      margin-left: 175px;
+      font-size: 12px; }
+      .content .contentcenter .Tabcentent .rad .radiomenu {
+        vertical-align: middle;
+        margin: 3px; }
+      .content .contentcenter .Tabcentent .rad .radiomenuhou {
+        color: #747474;
+        line-height: 19px; }
+        .content .contentcenter .Tabcentent .rad .radiomenuhou:hover {
+          color: #fe8500; }
+    .content .contentcenter .Tabcentent .btnmenu {
+      height: 40px;
+      width: 260px;
+      text-align: center;
+      line-height: 40px;
+      background: #fe8500;
+      color: #fff;
+      border: none;
+      font-family: Microsoft Yahei;
+      border-radius: 2px;
+      cursor: pointer;
+      margin: 80px 0 0 180px;
+      font-size: 14px; }
+
+.foottanchong {
+  height: 146px;
+  width: 1200px;
+  margin: 20px auto 0;
+  border-top: 1px solid #e2e2e2; }
+
+.footahao {
+  height: 121px;
+  background: #f5f5f7;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #747474; }

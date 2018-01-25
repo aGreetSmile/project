@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+.headerCenter {
+  height: 100px;
+  width: 1200px;
+  margin: 0 auto 20px; }
+  .headerCenter img {
+    float: left;
+    margin-top: 10px; }
+  .headerCenter p {
+    float: left;
+    width: 120px;
+    font-size: 24px;
+    line-height: 110px;
+    text-align: center;
+    color: #747474; }
+    .headerCenter p span {
+      margin-left: 10px; }
+
+.content .contentCenter {
+  width: 940px;
+  height: 100%;
+  box-shadow: 0 0 10px #ccc;
+  margin: 10px auto;
+  overflow: hidden;
+  padding: 10px 30px; }
+  .content .contentCenter .logo {
+    float: left; }
+  .content .contentCenter .texts {
+    float: right;
+    width: 380px;
+    height: 380px;
+    margin: 10px 0px 0px 10px;
+    padding-top: 20px;
+    position: relative; }
+    .content .contentCenter .texts .prompt {
+      height: 20px;
+      font-size: 14px;
+      color: red;
+      margin-left: 20px; }
+    .content .contentCenter .texts .userNameImg {
+      height: 16px;
+      position: absolute;
+      top: 30px;
+      right: 100px; }
+    .content .contentCenter .texts .passWordImg {
+      height: 16px;
+      position: absolute;
+      top: 88px;
+      right: 100px; }
+    .content .contentCenter .texts .style1 {
+      font-family: Microsoft Yahei;
+      color: #474747;
+      height: 35px;
+      line-height: 35px;
+      padding-left: 15px;
+      border: 1px solid #e8e8e8;
+      background: #fff;
+      border-radius: 2px;
+      width: 270px; }
+    .content .contentCenter .texts .clicksin {
+      height: 35px;
+      width: 288px;
+      padding: 0px 25px;
+      background: #51aff9;
+      text-align: center;
+      border: none;
+      font-family: Microsoft Yahei;
+      color: #fff;
+      border-radius: 2px;
+      cursor: pointer;
+      font-size: 18px; }
+    .content .contentCenter .texts .guide {
+      margin-top: 10px; }
+      .content .contentCenter .texts .guide a {
+        font-size: 12px;
+        color: #fe8500; }
+        .content .contentCenter .texts .guide a:nth-child(1) {
+          float: left; }
+        .content .contentCenter .texts .guide a:nth-child(2) {
+          float: right;
+          margin-right: 88px; }
+
+.foottanchong {
+  clear: both;
+  height: 146px;
+  width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid #dedede; }
+
+.footahao {
+  height: 121px;
+  background: #f5f5f7;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #747474; }

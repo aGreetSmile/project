@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <title>购物车</title>
+    <link rel="stylesheet" href="src/ShoppingCart.css">
+    <link rel="stylesheet" href="src/iconfont.css">
+    <link rel="stylesheet" href="src/iconfont1.css">
+</head>
+<body>
+    <div class="box">
+        <div class="banner">
+            <div class="registration">
+                <a href="SignIn.html">登录</a>
+                <span>|</span>
+                <a href="register.html">注册</a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="javascript:;">商城首页</a>
+                        <span>|</span>
+                    </li>
+                    <li>
+                        <a href="javascript:;">我的订单</a>
+                        <span>|</span>
+                    </li>
+                    <li>
+                        <a href="javascript:;">开店申请</a>
+                        <span>|</span>
+                    </li>
+                    <li class="navmy">
+                        <i class="iconfont icon-xingxing">
+                            <p class="navmyCollection">
+                                <a href="javascript:;">店铺收藏</a>
+                                <a href="javascript:;">我的收藏</a>
+                            </p>
+                        </i>
+                        <a href="javascript:;">我的收藏</a>
+                        <span>|</span>
+                    </li>
+                    <li class="Customer">
+                        <a href="javascript:;">客服中心</a>
+                        <p class="Cust">
+                            <img src="images/1.png">暂无客服</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <a href="index.html"><img src="images/1.jpg" class="logo_1"></a>
+    </div>
+    <div class="wid">
+         <div class="search">
+            <i class="iconfont icon-gouwuche"></i><span>我的购物车</span>
+        </div>
+        <div class="erbox">
+            <ul>
+                <li><input type="checkbox">全选 <span>商品信息</span></li>
+                <li>单价</li>
+                <li>数量</li>
+                <li>合计</li>
+                <li>操作</li>
+            </ul>
+        </div>
+        <div class="contentgwc">
+            <div class="kexinx">
+                <input type="checkbox">
+                <a href="javascript:;">"爱生活",手机销售平台</a>
+                <img src="images/1.png">暂无客服
+            </div>
+             <!-- 加入购物车详情 -->
+            <div class="hgxsgwc">
+                <div class="gwoe"><input type="checkbox"><img src="images/phone1.jpg"></div>
+                <div class="gwos1">
+                    <a href="javascript:;">【爱分期】华为 Ascend Math7</a>
+                    <p>机身内存：4G <span>套餐类型：官方标配</span></p>
+                </div>
+                <div class="gwos2">
+                    <p class="jiag num1"><span class="dajia">2999.00</span>
+                        <input type="button" value="-" class="reduce">
+                        <input type="text" class="textnum" value="1">
+                        <input type="button" value="+" class="plus">
+                        <span class="zjjs">￥2999.00</span><a href="javascript:;" class="removesp">【删除】</a>
+                    </p>
+                    <div class="">库存： <span>1</span>件</div>
+                    
+                </div>
+                <p class="gwow">共<span>1</span>件商品，金额总计：￥<span>2999.00</span></p>
+            </div>
+        </div>
+        <div class="zxsl">
+            <input type="checkbox">全选
+            <div class="gwol">
+             共选中
+                <span>0</span>件商品，总计（不含运费）：
+                <span>￥0 </span>
+                <a href="SignIn.html">￥去结算</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/ShoppingCart.js"></script>
+</html>
